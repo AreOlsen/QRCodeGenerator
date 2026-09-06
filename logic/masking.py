@@ -1,6 +1,4 @@
-from matrix_fields import set_fixed_fields, set_meta_fields
-
-
+from logic.matrix_fields import set_fixed_fields, set_meta_fields
 
 def should_flip(row:int, col:int, mask_no:int)->bool:
     '''

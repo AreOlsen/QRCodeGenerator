@@ -16,7 +16,7 @@ def get_next_pos(row:int, column:int, size:int)->tuple[int,int]:
         if row==size-1:
             return (row,column-1)
         return (row+1,column+1)
-    
+
     # SECOND ODD COLUMNED CELLS RULE.
     elif column%4==3:
         if row==0:
@@ -47,11 +47,11 @@ def bit_list_to_raw_matrix(bit_list:list[int], qr_layout:dict)->list[list[int]]:
         or [row,column] in qr_layout["meta_positions"]["first"]
         or [row,column] in qr_layout["meta_positions"]["second"]):
             row, column = get_next_pos(row,column,qr_layout["side_length"])
-        
+
         # Set the matrix cell state to the bit.
         matrix[row][column]=bit
-        
+
         # Next bit new position.
         row, column = get_next_pos(row,column,qr_layout["side_length"])
-    
+
     return matrix

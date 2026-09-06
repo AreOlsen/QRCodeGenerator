@@ -41,7 +41,8 @@ QRv2, also known as QR Code Model 2, is an updated version of the original QR co
 
 ## Requirements
 
-This project requires mainly two libraries, being the UiB INF100 graphics library, and ReedSolo. The project has been tested to work, as of 12.11.2024, on both Windows, and MacOS, with uncertaincy surround the Linux ecosystem.
+This project requires mainly two libraries, being the Univesity of Bergens INF100 graphics library, and ReedSolo.
+The project has been tested to work, as of 06.09.2026, on both Windows, MacOS, and Ubuntu Linux.
 
 To install the required packages you can run the following commands:
 
@@ -57,5 +58,5 @@ After cloning the repository you just need to modify the URL specified in main.p
 Run the main script:
 
 ```sh
-python main.py
+python main.py URL.COM
 ```
