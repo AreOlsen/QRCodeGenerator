@@ -37,7 +37,7 @@ QRv2, also known as QR Code Model 2, is an updated version of the original QR co
 
 ## Screenshots
 
-<img src="screenshots/qr_code_example.png" alt="QR Code Example" width="300" height="300">
+<img src="screenshots/example.png" alt="QR Code Example" width="300" height="300">
 
 ## Requirements
 

@@ -26,5 +26,7 @@ def qr_code(text):
 
 if __name__ == '__main__':
     for i in sys.argv:
+        if i == "main.py":
+            continue
         if isinstance(i, str):
             qr_code(i)
